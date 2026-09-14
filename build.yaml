@@ -3,6 +3,7 @@ include:
   - board: crosses_v2_left
     artifact-name: crosses_v2_54_left
   - board: crosses_v2_right
+    shield: raw_hid_adapter
     artifact-name: crosses_v2_54_right
     # No studio-rpc-usb-uart snippet: Studio runs over BLE, not USB, so the config
     # web app's CDC-ACM can be the sole USB serial port (two CDC-ACM ports starve

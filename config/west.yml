@@ -4,9 +4,19 @@ manifest:
   remotes:
     - name: Good-Great-Grand-Wonderful
       url-base: https://github.com/Good-Great-Grand-Wonderful
+    - name: zzeneg
+      url-base: https://github.com/zzeneg
+    - name: srwi
+      url-base: https://github.com/srwi
   projects:
     - name: crosses-v2-zmk-firmware
       remote: Good-Great-Grand-Wonderful
       import: config/west.yml
+    - name: zmk-raw-hid
+      remote: zzeneg
+      revision: main
+    - name: zmk-keypeek-layer-notifier
+      remote: srwi
+      revision: master
   self:
     path: config
