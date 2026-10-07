@@ -1,0 +1,5 @@
+description: |
+  Diagnostic nRF VDDH battery sensor. Reports voltage through the state of charge
+  channel: level = (mV - 2500) / 20, clamped to 1..100. Read back as mV = 2500 + 20 * level.
+
+compatible: "zmk,battery-nrf-vddh-mv"

@@ -1,0 +1,4 @@
+// Diagnostic: report VDDH voltage instead of percent. mV = 2500 + 20 * level.
+&vbatt {
+    compatible = "zmk,battery-nrf-vddh-mv";
+};
